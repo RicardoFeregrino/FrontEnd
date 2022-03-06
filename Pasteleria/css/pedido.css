@@ -1,0 +1,199 @@
+body{
+    background-image:url("../img/fondo.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a{
+    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 10px;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color:#74003f;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #ffa8d9;
+    border-radius: 10px;
+}
+
+hr{
+    border : 3px solid #ffa8d9 ;
+    border-radius: 3px;
+}
+
+.divblanco{
+    background-color: white;
+    opacity: .8;
+    width: 800px;
+    color: #74003f;
+    border:  2px solid #E44F9C;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: justify;
+    
+    
+}
+
+
+.h1center{
+    color: #74003f;
+    font-weight: bold;
+    margin: 0 0 0 0;
+    padding: 10px;
+    text-align:left;
+    vertical-align: bottom;
+    display: inline-block;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.divcentrar{
+    text-align: center;
+}
+
+.divwrap{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    align-self: center;
+}
+.divpcolor2{
+    width: 138px;
+    height: 250px;
+    text-align: justify;
+    padding: 0px;
+}
+
+.contenedor{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.h3center{
+    color:#74003f;
+    font-weight: bold;
+    margin: 0 0 0 0;
+    padding: 10px;
+    text-align:left;
+    vertical-align: bottom;
+    display: inline-block;
+    border-radius: 10px;
+    background-color:#fdcae1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.boton{
+    background-color: white;
+    border: 2px solid #E44F9C;
+    border-style:ridge;
+    color:#74003f;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.boton:hover{
+    opacity: 0.6;
+}
+
+.custom-radio {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.custom-radio__show--radio {
+    background-image: url(../img/radio_uncheck.png);
+}
+
+.custom-radio > .custom-radio__input {
+    display: none;
+}
+
+.custom-radio > .custom-radio__show {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: .5rem;
+    background-size: cover;
+}
+
+.custom-radio > .custom-radio__input:checked + .custom-radio__show--radio {
+    background-image: url(../img/radio_checked.png);
+}
+
+.custom-checkbox {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.custom-checkbox__show--checkbox {
+    background-image: url(../img/checkbox_uncheck.png);
+}
+
+.custom-checkbox > .custom-checkbox__input {
+    display: none;
+}
+
+.custom-checkbox > .custom-checkbox__show {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: .5rem;
+    background-size: cover;
+}
+
+.custom-checkbox > .custom-checkbox__input:checked + .custom-checkbox__show--checkbox {
+    background-image: url(../img/checkbox_checked.png);
+}
+
+.top{
+    vertical-align:top;
+}
+input {
+    border: none;
+    border-bottom: 2px solid #E44F9C;
+    outline: none;
+    color: #74003f;
+}
+textarea{
+    outline: none !important;
+    border:1px solid #E44F9C;
+    box-shadow: 0 0 10px #ffa8d9;
+    color: #74003f;
+}

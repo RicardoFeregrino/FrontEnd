@@ -1,0 +1,100 @@
+body{
+    background-image:url("../img/fondo.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a{
+    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 10px;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color:#74003f;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #ffa8d9;
+    border-radius: 10px;
+}
+
+hr{
+    border : 3px solid #ffa8d9 ;
+    border-radius: 3px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 500px;
+}
+
+.divblanco{
+    background-color: white;
+    opacity: .8;
+    width: 300px;
+    color: #74003f;
+    border:  2px solid #E44F9C;
+    border-radius: 50px;
+    padding: 20px;
+    text-align: justify;
+    
+    
+}
+
+.divcentrar{
+    text-align: center;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid #E44F9C;
+    outline: none;
+    color: #74003f;
+    
+}
+label{
+    font-weight: bold;
+}
+
+.boton{
+    background-color:#ffa8d9;
+    border: 2px solid #E44F9C;
+    border-style:ridge;
+    color:#74003f;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.boton:hover{
+    opacity: 0.6;
+}
