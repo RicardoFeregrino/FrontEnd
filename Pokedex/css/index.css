@@ -1,0 +1,79 @@
+body {
+    background-color: #da6277;
+}
+
+@font-face {
+    font-family: 'pokemon-font';
+    src: url('../fonts/pokemon-font.eot');
+    src: url('../fonts/pokemon-font.eot?#iefix') format('embedded-opentype'), url('../fonts/pokemon-font.woff2') format('woff2'), url('../fonts/pokemon-font.woff') format('woff'), url('../fonts/pokemon-font.ttf') format('truetype')
+}
+
+.poke-img {
+    width: 180px;
+    border-radius: 50%;
+}
+
+.principal {
+    background-image: url("../img/base.png");
+    height: 650px;
+    width: 550px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.centro {
+    display: flex;
+    justify-content: center;
+}
+
+.mover {
+    position: absolute;
+    transform: translate(14%, 93%);
+}
+
+.mover2 {
+    position: absolute;
+    transform: translate(18%, 60%);
+}
+
+.mover3 {
+    position: absolute;
+    transform: translate(290px, 485px);
+}
+
+.mover4 {
+    position: absolute;
+    transform: translate(240px, 605px);
+}
+
+input[type="text"] {
+    line-height: 34px;
+    width: 423px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #f2efa5;
+    font-family: 'pokemon-font';
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-self: center;
+    gap: 14px;
+}
+
+.font {
+    font-family: 'pokemon-font';
+    font-size: 14px;
+}
+
+.poke-types {
+    font-family: 'pokemon-font';
+}
+
+.poke-moves {
+    font-family: 'pokemon-font';
+    font-size: 12px;
+}

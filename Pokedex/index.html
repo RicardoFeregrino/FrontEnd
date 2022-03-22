@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+
+    <section class="centro">
+        <div class="principal">
+            <section class="mover">
+                <form action="" onsubmit="searchPokemon(event)">
+                    <input type="text" name="pokemon" autocomplete="off">
+                </form><br>
+            </section>
+            <section class="wrap mover2 font">
+                <div data-imagen-pokemon-contenedor class="img-contenedor">
+                    <div><img data-imagen-pokemon src=" " class="poke-img "></div>
+                </div>
+                <div>
+                    <div data-nombres-pokemon></div>
+                    <div data-id-pokemon></div>
+                    <div data-stats-pokemon class="poke-stats "></div>
+                </div>
+            </section>
+            <div data-tipos-pokemon class="poke-types mover3 "></div>
+            <div data-movimientos-pokemon class="poke-moves mover4 "></div>
+        </div>
+    </section>
+
+
+</body>
+<footer>
+    <script src="./js/index.js " type="text/javascript "></script>
+</footer>
+
+</html>
